@@ -1,0 +1,7 @@
+Objective: create a German vocabulary exercise game 
+function: ramdonly select German word from the pool and ask meaning of it. 
+return: answer with correct or incorrect. 
+            correct - "Sehr Gut!"" 
+            incorrect: "Es tut mir Leid" Der richtig worter is [   ]" 
+
+Continue or Exit 

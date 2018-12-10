@@ -1,0 +1,1 @@
+german = {'das Haus':'House', 'gelb':'yellow', 'rot':'red', 'das Decke':'desk'}
