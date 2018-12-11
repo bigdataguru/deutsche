@@ -17,18 +17,20 @@ print ("")
 print ("Wilkommen Deutsch Wörter Übungen!")
 print ("")
 
-print = input("Press anykey continue. \n")
+print = input("Press enter to continue.")
+
+
+more = "yes"
 
 #python 3.7 specific functions having to add 'list'
-choice = random.choice(list(german.keys()))
+#choice = random.choice(list(german.keys()))
 
-#question to user and asking to input an answer  
-question = input("What is the meaning of this German word" + " ( " +choice+ " ) "+"in English? :  ")
+while more == "yes" or more == "y":
+	
+    print = input("\nWhat is the meaning of this German word" + " ( " + (random.choice(list(german.keys())))
++ " ) "+"in English? :  ")
 
-#Continue or exit the program 
-
-
-more_stop = input ("Plase enter 1 to continue and 2 to exit the program:  \n")
+    more = input("\nlearn more words?:   ")
 
 
 
